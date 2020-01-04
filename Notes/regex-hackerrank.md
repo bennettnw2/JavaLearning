@@ -58,7 +58,7 @@ System.out.println(result);  // <= outputs "true"
 ```
 
 This one is interesting because you do not need to call the `java.util.regex.*` package.  I think because the `matches()` function is part of the String class?.  Just my best guess.  I'll check it out later.
-```
+```java
 public class RegEx {
   
     public static void main(String [] args) {
